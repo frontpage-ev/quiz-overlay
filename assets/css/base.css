@@ -1,0 +1,26 @@
+@import url(https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900|roboto:100,100i,300,400,500,700,900|rubik:300|tourney:100,200,300,400,500,600,700,800,900);
+
+@font-face {
+    font-family: Roobert;
+    src: url("../fonts/Roobert-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Roobert;
+    font-weight: bold;
+    src: url("../fonts/Roobert-Bold.otf") format("opentype");
+}
+
+html,body, #__nuxt, #__layout{
+    height:100%!important;
+    width: 100%!important;
+}
+
+.remove-arrow::-webkit-inner-spin-button,
+.remove-arrow::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.remove-arrow {
+    -moz-appearance: textfield;
+}
